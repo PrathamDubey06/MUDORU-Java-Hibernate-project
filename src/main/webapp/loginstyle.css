@@ -1,0 +1,183 @@
+@charset "ISO-8859-1";
+body{
+    background-color: rgb(255, 255, 255);
+}
+input{
+    height: 35px;
+    width: 300px;
+    margin-bottom: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+h2{
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+h2:hover{
+    font-size: 50px;
+    transition: all 1000ms ease;
+    margin-top: 20px;
+    cursor: pointer;
+}
+input:hover{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px white;
+    border-radius: 100px;
+    transition: all 1500ms ease;
+}
+#butn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 100px;
+    font-size: 18px;
+    padding-left: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 20px;
+    border-radius: 100px;
+}
+#butn:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: all 1000ms ease;
+}
+#btn{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px white;
+    transition: all 1500ms ease;
+    border-radius: 100px;
+}
+#Main{
+    border: 2px solid rgb(255, 255, 255);
+    width: 430px;
+    height: 350px;
+    padding: 20px;
+    padding-bottom: 45px;
+    margin-top: 100px;
+    border-radius: 10px;
+    background-color: black;
+    opacity: 70%;
+}
+#Main:hover{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 30px white;
+    transition: all 1500ms ease;
+    border-radius: 30px;
+}
+#check{
+    height: 12px;
+    width: 12px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#help{
+    font-weight: bold;
+    color: rgb(226, 226, 226);
+}
+#help:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 10px white;
+    transition: all 500ms ease;
+}
+label{
+    color: white;
+}
+label:hover{
+    text-shadow: 5px 5px 10px white;
+    transition: all 500ms ease;
+}
+img{
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    height: 100%;
+    width: 100%;
+}
+::placeholder {
+    color: rgb(230, 230, 230);
+}
+@keyframes errors{
+    0%{
+        width: 300px;
+        font-size: 16px;
+    }
+    50%{
+        padding: 8px;
+        font-size: 18px;
+        box-shadow: 1px 1px 20px rgb(255, 0, 0);
+    }
+    100%{
+        font-size: 16px;
+    }
+}
+.error{
+    height: 20px;
+    width: 300px;
+    background-color: red;  
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    border-radius: 5px;
+    position: absolute;
+    left: 850px;
+    padding: 6px;
+    animation-name: errors;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+#error1{
+    position: absolute;
+    top: 225px;
+}
+#error2{
+    position: absolute;
+    top: 290px;
+}
+ab{
+    color: white;
+}
+i{
+    color: rgb(180, 180, 180);
+    position: absolute;
+    top: 295px;
+    left: 890px;
+}
+i:hover{
+    cursor: pointer;
+    color: white;
+}

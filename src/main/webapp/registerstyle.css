@@ -1,0 +1,242 @@
+@charset "ISO-8859-1";
+body{
+    background-color: black;
+}
+input{
+    height: 35px;
+    width: 200px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+h2{
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+}
+h2:hover{
+    font-size: 50px;
+    transition: all 1000ms ease;
+    margin-top: 20px;
+    cursor: pointer;
+}
+input:hover{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px white;
+    border-radius: 100px;
+    transition: all 1500ms ease;
+}
+.user{
+    width: 420px;
+}
+select{
+    background-color: rgb(53, 53, 53);
+    height: 39px;
+    width: 100px;
+    font-size: 13px;
+    color: rgb(230, 230, 230);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+}
+select:hover{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px white;
+    border-radius: 100px;
+    transition: all 1500ms ease;
+}
+#butn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 150px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 10px;
+    border-radius: 100px;
+    padding-left: 0px;
+}
+#butn:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: 430px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px white;
+    transition: all 1000ms ease;
+}
+#btn{
+    height: 30px;
+    width: 80px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px white;
+    transition: all 1500ms ease;
+    border-radius: 100px;
+}
+#phone{
+    width: 310px;
+}
+#Main{
+    border: 2px solid rgb(255, 255, 255);
+    width: 500px;
+    height: 630px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: black;
+    opacity: 70%;
+}
+#Main:hover{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 30px white;
+    transition: all 1000ms ease;
+    border-radius: 30px;
+}
+img{
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 115%;
+}
+::placeholder {
+    color: rgb(230, 230, 230);
+}
+label{
+    color: rgb(230, 230, 230);
+    text-align: center;
+    background-color: rgb(53, 53, 53);
+    padding: 9px;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 14px;
+    margin: 1px;
+    margin-right: 10px;
+}
+label:hover{
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px white;
+    border-radius: 100px;
+    transition: all 1500ms ease;
+}
+#date{
+    width: 315px;
+    color: rgb(230, 230, 230);
+}
+#gend{
+    width: 430px;
+}
+ab{
+    color: white;
+}
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    padding-right: 15px;
+}
+b{
+    color: white;
+    position: absolute;
+    top: 190px;
+    left: 870px;
+}
+@keyframes errors{
+    0%{
+        width: 300px;
+        font-size: 16px;
+    }
+    50%{
+        padding: 8px;
+        font-size: 18px;
+        box-shadow: 1px 1px 20px rgb(255, 0, 0);
+    }
+    100%{
+        font-size: 16px;
+    }
+}
+.error{
+    height: 20px;
+    width: 300px;
+    background-color: red;  
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    border-radius: 5px;
+    padding: 6px;
+    animation-name: errors;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+#error1{
+    position: absolute;
+    top: 127px;
+    left: 870px;
+}
+#error2{
+    position: absolute;
+    top: 183px;
+    left: 870px;
+}
+#error3{
+    position: absolute;
+    top: 240px;
+    left: 870px;
+}
+#error4{
+    position: absolute;
+    top: 293px;
+    left: 870px;
+}
+#error5{
+    position: absolute;
+    top: 347px;
+    left: 870px;
+}
+#error6{
+    position: absolute;
+    top: 405px;
+    left: 870px;
+}
+#error7{
+    position: absolute;
+    top: 462px;
+    left: 870px;
+}
+#error8{
+    position: absolute;
+    top: 518px;
+    left: 870px;
+}
+i{
+    color: rgb(180, 180, 180);
+    position: absolute;
+    bottom: 190px;
+    left: 725px;
+}
+i:hover{
+    cursor: pointer;
+    color: white;
+}
+
